@@ -1,0 +1,76 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6; /* Azul claro */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: white;
+    background-color: #6A0DAD; /* Roxo */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo do formulário */
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    color: #6A0DAD; /* Roxo */
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: 2px solid #6A0DAD; /* Roxo */
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+  }
+  
+  /* Seções de informações */
+  .info-sections {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .info-box {
+    padding: 20px;
+    background-color: #ADD8E6; /* Azul claro */
+    border: 2px solid #6A0DAD; /* Margem roxa */
+    border-radius: 10px;
+    color: #6A0DAD; /* Texto roxo */
+  }
+  
+  .info-box p {
+    margin: 0 0 10px 0;
+  }
+  
+  .info-box a {
+    color: #6A0DAD;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .info-box a:hover {
+    text-decoration: underline;
+  }
